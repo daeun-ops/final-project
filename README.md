@@ -225,4 +225,4 @@ A/S 업무 품질을 지속적으로 개선
 > 
 > [📜 테이블 명세서 예시](https://docs.google.com/spreadsheets/d/1utipxj0PCM7cDAgiXP1EOu6pdmhNR-IkrVWJD_GMxtg/edit?gid=95563668#gid=95563668)
 >
-> [📜 화면 정의서 예시]([https://docs.google.com/spreadsheets/d/1vud5xV8rB9Y6akOIma49hSzdZsoj8DVG0-fYE4NdP_g/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1utipxj0PCM7cDAgiXP1EOu6pdmhNR-IkrVWJD_GMxtg/edit?gid=400714320#gid=400714320))
+> [📜 화면 정의서 예시]([https://docs.google.com/spreadsheets/d/1vud5xV8rB9Y6akOIma49hSzdZsoj8DVG0-fYE4NdP_g/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1utipxj0PCM7cDAgiXP1EOu6pdmhNR-IkrVWJD_GMxtg/edit?gid=400714320#gid=400714320)
