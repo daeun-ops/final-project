@@ -221,7 +221,7 @@ A/S 업무 품질을 지속적으로 개선
 > 
 > [📜 요구사항 정의서 예시](https://docs.google.com/spreadsheets/d/1BaDEpeytl_rQ_vckIXGJtCL4NcmPvemCSnXJnhckzLU/edit?usp=sharing)
 > 
-> [📜 ERD 예시](https://drive.google.com/file/d/1jvaFIwfOkKLRriFZxzOwJTE-FJ7H3IFe/view?usp=sharing)
+> [📜 ERD 예시](https://www.erdcloud.com/)
 > 
 > [📜 테이블 명세서 예시](https://docs.google.com/spreadsheets/d/13y8xi67UQYCzX1xgSORtlA1_vXRFq6OQuVDG2o7fhO0/edit#gid=0)
 >
