@@ -1,27 +1,63 @@
-## 📖 프로젝트 소개
+# 🛠️ **스프링부트를 활용한 LMS 서비스**  
 
-A/S 관리 시스템은 A/S 센터에서 발생하는 고객 요청과 수리 처리 내역을
-체계적으로 전산화하여 업무 효율성을 높이고,
-고객 응대 품질을 향상시키는 것을 목표로 합니다.
 
-기존에 전화, 메모, 엑셀 등으로 분산 관리되던 A/S 업무를
-하나의 통합 시스템에서 관리함으로써
+## 🖥️ 프로젝트 명  
+- **A/S 관리 시스템 (After-Service Management System)**  
 
-✅ 누락 방지
+---
 
-✅ 담당자 자동 배분
+## 🌟 프로젝트 소개  
 
-✅ 처리 현황 추적
+### ✅ 제작 목표  
+A/S 센터에서 발생하는 고객 요청과 수리 처리 내역을 **체계적으로 전산화**하여  
+**업무 효율성**과 **고객 응대 품질**을 향상시키는 통합 관리 시스템을 개발  
 
-✅ 입금 확인 및 정산
+기존 **전화·메모·엑셀 등으로 분산 관리되던 업무**를 하나의 플랫폼에서  
+**누락 방지, 담당자 배분, 처리 추적, 입금 확인**까지  
+일관된 방식으로 처리할 수 있도록 지원  
 
-등의 다양한 업무 과정을 일관되고 효율적으로 운영할 수 있도록 지원합니다.
+또한, **처리 이력 데이터 기반의 통계와 분석**을 제공하여  
+A/S 업무 품질을 지속적으로 개선  
 
-또한 모든 처리 이력은 데이터베이스에 기록·저장되어
-통계 및 분석 자료로 활용할 수 있으며,
-이를 통해 A/S 업무 품질을 지속적으로 개선할 수 있습니다.
+---
 
-또한, 모든 처리 이력은 데이터베이스에 기록·저장되어 통계 및 분석 자료로 활용할 수 있으며, 이를 통해 A/S 업무의 품질을 지속적으로 개선할 수 있습니다.
+## ⚙️ 시스템 개발 내용  
+
+- **회원 관리**  
+  - 이메일 인증 기반 회원가입 및 로그인  
+  - 마이페이지 및 비밀번호/권한 관리  
+
+- **A/S 요청 관리**  
+  - 고객 요청 접수, 수정, 삭제, 검색  
+  - 처리 현황 추적 및 담당자 배정  
+
+- **수리 내역/정산 관리**  
+  - 수리 결과 등록, 비용 관리, 입금 확인 및 환불  
+
+- **통계 및 리포트**  
+  - 처리 이력 기반 데이터 분석 및 시각화  
+
+- **관리자(어드민) 기능**  
+  - 회원/요청/결제/통계 관리  
+  - 유해 게시물·신고 처리  
+
+- **기술 스택**  
+  - Spring Boot + Spring Security  
+  - Layered Architecture (Controller/Service/Repository/DTO/Entity)  
+  - MySQL 기반 DB  
+  - GitHub 기반 협업  
+
+---
+
+## 💡 아이디어 착안  
+
+- 기존 A/S 센터는 **전화, 메모, 엑셀** 등 **수작업 위주 관리**로  
+  **누락·지연·중복 처리**가 빈번  
+- 처리 이력 추적과 데이터 분석이 어
+
+
+
+
 ---
 ## :link: 배포 링크
 
@@ -30,37 +66,17 @@ A/S 관리 시스템은 A/S 센터에서 발생하는 고객 요청과 수리 �
 ---
 ## 🗣️ 프로젝트 발표 영상 & 발표 문서
 
-> ### 🗓️ 2024.00-.00 - 2024.00.00
-> ### [📺 발표 영상 예시]()
-> ### [📑 발표 문서 예시]()
+> ### 🗓️ 2025.00-.00 - 2025.00.00
+> ### [📺 발표 영상 링크]()
+> ### [📑 발표 PPT 링크]()
 
 ---
 
 ## 🖥️ 서비스 소개
-|   메인 화면 1  |  메인 화면 2  |   소셜 로그인 1   |
-|:--------:|:------:|:--------:|
-| <img src="https://lh6.googleusercontent.com/M7RxaY_ZsF5sQcqiIOafdBGHuVGqKrQ0c07hzOtLgkhxYTK-aRKWdhkMfi8DaoZxyDWLZKhdUEDKBIEpETcm2_sH5JdW69mrOXzASMQYHFEiaP0QbgCEHa5bnKzITG-v9ztn0QfbCeZtznJ8q-SDo2qoEA=s2048" alt="MainPage1"> |   <img src="https://lh6.googleusercontent.com/WSSZM-N1tpBvXui0ivLMaSJv5u-Jn8oUNXik40GOW7thMqmNdMPrjfO4-halmEZ80GuBBlI5ENm8TtDovjSOMRqHE6Z5w7F5yYxdplO643k3wfhyW4wT0IUT15Rv6kk_FAnST07-50NOOeXHjRfjh6dEBA=s2048" alt="MainPage2">  | <img src="https://lh6.googleusercontent.com/LgLnyK4xbij_SmBQd_9b-zKL7NjFBceXLFr97o-S9z4JMw7bZaO4E9W5SbwJn_xOAVu4xCk9Se0eqShfP8YkzkaL-QilqVa6LRaQEQ5h4PHLZOgmT8ZByBV-eEIZEr9D3I1mB6qu5nhIehup3910FytnrQ=s2048" alt="Login1"> |
+|                                                                                                             메인 화면 1                                                                                                            |                                                                                                             메인 화면 2                                                                                                            |                                                                                                           소셜 로그인 1                                                                                                          |                                                                                                            마이페이지 1                                                                                                           |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://lh6.googleusercontent.com/M7RxaY_ZsF5sQcqiIOafdBGHuVGqKrQ0c07hzOtLgkhxYTK-aRKWdhkMfi8DaoZxyDWLZKhdUEDKBIEpETcm2_sH5JdW69mrOXzASMQYHFEiaP0QbgCEHa5bnKzITG-v9ztn0QfbCeZtznJ8q-SDo2qoEA=s2048" alt="MainPage1"> | <img src="https://lh6.googleusercontent.com/WSSZM-N1tpBvXui0ivLMaSJv5u-Jn8oUNXik40GOW7thMqmNdMPrjfO4-halmEZ80GuBBlI5ENm8TtDovjSOMRqHE6Z5w7F5yYxdplO643k3wfhyW4wT0IUT15Rv6kk_FAnST07-50NOOeXHjRfjh6dEBA=s2048" alt="MainPage2"> | <img src="https://lh6.googleusercontent.com/LgLnyK4xbij_SmBQd_9b-zKL7NjFBceXLFr97o-S9z4JMw7bZaO4E9W5SbwJn_xOAVu4xCk9Se0eqShfP8YkzkaL-QilqVa6LRaQEQ5h4PHLZOgmT8ZByBV-eEIZEr9D3I1mB6qu5nhIehup3910FytnrQ=s2048" alt="Login1"> | <img src="https://lh5.googleusercontent.com/KRfPZ8P2TzvLBeHAcApzzHDn6xbkCYp8Z9sDmWSifQNwQwfC7HAjczd-KHVs5dGbKhi2AO5O3A8wd8mewcze3TKb_yM9y5-PHQVE7axz5HVdWsI1alg2-qatjn7G2c0Y6Fx786KMjoiIULFLpCoQx6HWJA=s2048" alt="MyPage1"> |
 
-|                                                                                                          소셜 로그인 2                                                                                                           |                                                                                                              나눔글 등록 및 수정                                                                                                               |                                                                                                             나눔글 목록                                                                                                             |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://lh3.googleusercontent.com/_WEmqGBbE04OIWsmijjjMk7eyk2jKBC9qXLFTWJjpWHfcUknRcVfOSA5Xy5QqTILk75qm4EcbgyXNM5h8dtitdmfuQ7Gg7YSR_Hb8GBffFeiEMLx6NYXVPDLA8BwHVUHrfZtHl-yATyXIiJhtdsaOMoMqA=s2048" alt="Login2"> | <img src="https://lh6.googleusercontent.com/wQiDqzndpvTRfIsHy-l3_eCjPDQ0JF28pCmLrDdSFQfR0UTuJHiF_erHsz57FuHFDWbHMnmOLquWxJxqUwjeAy_JnhaOzpjdemsvAzwPQdfK6J-H6vqOj3GwrnpBMs43Gl6BhC_idUh9lVyONEgCdIHMPQ=s2048" alt="CreateUpdateShare"> | <img src="https://lh6.googleusercontent.com/l6hiRBG-gYZpIp_E23PVm4sOBS-W2wFvncoP5bKlZQfU66NRMzxmfdgyJDagDmnqJLwxnJ9P7tu1eBlmOerah9AOx8NcBDLQR1lmLTZ083GR4zr0kBpI9XVdqVHDe571bTYFZ5fnCztg4Yw2JVyv0W-Sug=s2048" alt="ShareList"> |
-
-|                                                                                                             나눔글 이미지 업로드                                                                                                             |      나눔글 댓글      |      나눔 상태 토글    |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------:|:---------:|
-| <img src="https://lh6.googleusercontent.com/uQJWChKZY7rtI-IdUgG9AxKSUfEeAUbFu3vnfrEkxDXSYHF7-e2ban3omp9Hn0yjtIh6uyQUC3DY8FXOOTLZEk5oK5t3BhD4WS6_jdJclc-L-zn8iavUnRgtLf0In1yH_C933V2MVtYE6_a40slzphM88A=s2048" alt="UpdateShareImg"> | <img src="https://lh6.googleusercontent.com/gs8HXpN_GGwlXTG9ZXldKc2rIYwqKE3IzQY3r6SYVwmp1M7-0_KJggGrbM0-VY_yL_Gh8V4_1argDczgglGIKjGuteRAFVKNCyK8BtM_Gsarut-Y4K-_1H7_Bj168cxmw1f7zRT9FUVjYnoGl2AG574nIg=s2048" alt="ShareComment"> | <img src="https://lh4.googleusercontent.com/iFbgPqWgK__YmSB8ha53yHTLfU_LtwJNEAf7KCDUxbraZbJhh1vQkAjTMLhaQF24HN2s3oniEsOL75mfiiMV2gRUs0exNptePw0hp0a9Q0Ko3XzfN3l4lPoWY5NP3Eif4KONMmgWQ-kKTYamb2mOiGiMlw=s2048" alt="ShareStatus"> |
-
-|                                                                                                             나눔 게시글 검색                                                                                                             |              요청글 등록              |              요청글 수정              |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------:|:--------------------------------:|
-| <img src="https://lh4.googleusercontent.com/TBqn1-oJm59EbLQyqSPLZ5_cidaanTljcr1Qq_XTPxcdTzD-IwxHrKL0ZfQhoZrkOVjokRLckca1x-9w8k0me4-6JTHPG6rbwuQ4pkmrgjEpAJZxAMM8HxR5x6vDtiCotwODnUJbo0wYK-Y62U4BTx17Cw=s2048" alt="SearchShare">  | <img src="https://lh4.googleusercontent.com/3od9me49rKBnI9saCG7TuRqlg4RQGb9JX4z8PyXMHfpqW6jF4gLgly_fZympLUsQUzxVBfWeEDIOha2-TyV-6pV_BiIbafOb9AG6vZVAgBomqyfgr8r6I_Xilqyi-p5rTA6q8lJeVqt-en4I1jnEGoK19Q=s2048" alt="CreateRequset"> | <img src="https://lh4.googleusercontent.com/vJ2PSqYwWttmoXqED3pfS8HQxiaL-FSLZAjJa45u3KQ7bqkNbLW9_y8HN5MjURQGTmClDCqnkJxLvxJ5gX6v96iQKuTpmRY2fekNh22LPfuJrah7QgNGe7z6P45e4sZ3bAig0vei49TauuLdwPcAQPGDzg=s2048" alt="UpdateRequest"> |
-
-|                                                                                                               요청글 댓글                                                                                                                |              요청글 검색              |            도서 평점 등록             |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------:|:-------------------------------:|
-| <img src="https://lh5.googleusercontent.com/ngtbM1TwsYkrv1gAbcs7S61jJtgIKb66IdtppaIvVCT9mbthSK3Q66YBV9EOZ3ipc3SrlahE7OlVw7Bu-nwLeACpUKZ0BzYmoFTZSNPwgC0xVA_pZ69Spq34yk5xfNo7AgTN0FEiTmRVNs0_vXnlfrwUCQ=s2048" alt="RequestComment"> | <img src="https://lh6.googleusercontent.com/AV4lIIXPUjDm9RTAmZSn8vkyJx8Ltiybi5wD6gyrydKw5uXa0EMRK3ysShfVhHLdZYoDSHNbdfEr_pc9yUEDWEwT2cTdf7vDSZcbCKxcy_gDiBjL15ofE94LCoXZu4VuQ5BTkImsh8RzgwL31sSib5VBVg=s2048" alt="SearchRequest"> | <img src="https://lh6.googleusercontent.com/16_o-x4RHI9TU7pypuH0E2dypPuYE2G2jP8VhTxWwiiZuNSVTxqdkprKOigJ2F0okPILkVNd9BnYyKjgEYTH9uKkuEtEm5TBqy9gJOxRli6DP7DRCqORo6o07ym1onjJVsCbOvEIAVSMYL6-oGroAVJyjw=s2048" alt="CreateRating"> |
-
-|                                                                                                          도서 평점 수정 및 삭제                                                                                                           |             마이페이지 1             |           마이페이지2           |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------:|:--------------------------:|
-| <img src="https://lh5.googleusercontent.com/KjjwMZ-FrNzlWa0N8IS2iYAr92JgQCMbOFEwZdtScJJwzt5XY70dZII-OyvHUSbWV_7qBNCFc3pslsgcfLX9ZAM54y0F5pRrO4e2EMv8ee1K2FzzieU5ByAn9UhBqB08Fk1pHUaGvRzxGt8HhFh17fongw=s2048" alt="UpateRating"> |<img src="https://lh5.googleusercontent.com/KRfPZ8P2TzvLBeHAcApzzHDn6xbkCYp8Z9sDmWSifQNwQwfC7HAjczd-KHVs5dGbKhi2AO5O3A8wd8mewcze3TKb_yM9y5-PHQVE7axz5HVdWsI1alg2-qatjn7G2c0Y6Fx786KMjoiIULFLpCoQx6HWJA=s2048" alt="MyPage1"> | <img src="https://lh5.googleusercontent.com/eTvLqwjRti-QhqDMWb2gMw692w-qmSipvVOjcXHvVIetlZiBvgbzcDakCP2Gmf-kGNx5vuZ5fm_3ExzA3_rD3ux4DaDK5xaP90LgDmK6fRYPdGdolg8dJrdh8fKT7a4H0odAYlK9t4-iLxjtsbinTnz0ow=s2048" alt="MyPage2"> |
----
 
 ## 🧰 사용 스택
 
