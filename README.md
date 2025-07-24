@@ -217,12 +217,12 @@ A/S 업무 품질을 지속적으로 개선
 
 
 ## :clipboard: Documents
-> [📜 API 명세서 예시](https://docs.google.com/spreadsheets/d/1XODUQC8tFNQjoZS7I4rcyaQpin6WzuuruZIVmdMwmeU/edit#gid=0)
+> [📜 API 명세서 예시](https://docs.google.com/spreadsheets/d/1utipxj0PCM7cDAgiXP1EOu6pdmhNR-IkrVWJD_GMxtg/edit?usp=sharing)
 > 
-> [📜 요구사항 정의서 예시](https://docs.google.com/spreadsheets/d/1BaDEpeytl_rQ_vckIXGJtCL4NcmPvemCSnXJnhckzLU/edit?usp=sharing)
+> [📜 요구사항 정의서 예시](https://docs.google.com/spreadsheets/d/1utipxj0PCM7cDAgiXP1EOu6pdmhNR-IkrVWJD_GMxtg/edit?gid=611143583#gid=611143583)
 > 
 > [📜 ERD 예시](https://www.erdcloud.com/)
 > 
-> [📜 테이블 명세서 예시](https://docs.google.com/spreadsheets/d/13y8xi67UQYCzX1xgSORtlA1_vXRFq6OQuVDG2o7fhO0/edit#gid=0)
+> [📜 테이블 명세서 예시](https://docs.google.com/spreadsheets/d/1utipxj0PCM7cDAgiXP1EOu6pdmhNR-IkrVWJD_GMxtg/edit?gid=95563668#gid=95563668)
 >
-> [📜 화면 정의서 예시](https://docs.google.com/spreadsheets/d/1vud5xV8rB9Y6akOIma49hSzdZsoj8DVG0-fYE4NdP_g/edit?usp=sharing)
+> [📜 화면 정의서 예시]([https://docs.google.com/spreadsheets/d/1vud5xV8rB9Y6akOIma49hSzdZsoj8DVG0-fYE4NdP_g/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1utipxj0PCM7cDAgiXP1EOu6pdmhNR-IkrVWJD_GMxtg/edit?gid=400714320#gid=400714320))
