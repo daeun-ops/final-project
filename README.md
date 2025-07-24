@@ -213,7 +213,7 @@ A/S 업무 품질을 지속적으로 개선
 
 ### Communication Rules
 > - Discord 활용 
-> - 정기 회의
+> - 정기 회의 00시 ~ 00시
 
 
 ## :clipboard: Documents
